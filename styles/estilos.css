@@ -1,87 +1,87 @@
 .titulo{
-            display: flex;
-            align-items: center;
-            height: 200px;
-            padding: 10px;
-            
-        }
-        .contenedor-hexagono{
-            width: 50px;
-            height: 57px;
-            margin: 20px;
-        }
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+    
+}
+.contenedor-hexagono{
+    width: 50px;
+    height: 57px;
+    margin: 20px;
+}
 
-        .contenedor-hexagono img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%, 0% 75%, 0% 25%);
+.contenedor-hexagono img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%, 0% 75%, 0% 25%);
 
-        }
-        h1{
-            font-size: 20px;
-        }
-        .marquesina{
-            height: 20px;
-        }
-        .marquesina marquee{
-            height: 100px;
-        }
-        .tarjetas{
-            display: flex;
-            justify-content: center;
-            justify-content: space-evenly;
-            
-        }
-        .tarjetas .tarjetas2{
-            width: 250px;
-            text-align: center;
-        }
-        .tarjetas2 h3{
-            color: #48d4ff;
-            font-size: 15px;
-            margin-top: -15px;
-        }
-        .tarjetas .tarjetas2 img{
-            height: 230px;
-            width: 200px;
-            object-fit: cover;
-            object-position: center top;
-            clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 75%,0% 25%);
-        }
-        .tarjetas2 button{
-            margin: 5px;
-            color: white;
-            background-color: #40df88;
-            border: none;
-            width: 25px;
-            height: 30px;
-            object-fit: cover;
-            clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 75%,0% 25%);
-        }
-        .tarjetas2 button:hover{
-            transition: 0.5s all;
-            background-color: #48d4ff;
-            cursor: pointer;
-            width: 30px;
-        }
-        .informacion{
-            margin: 50px;
-            display: flex;
-            justify-content: center;
-        }
-        .informacion button{
-            height: 45px;
-            width: 250px;
-            border: none;
-            background-color: #ff5252;
-            border-radius: 10px;
-            color: white;
-            font-size: 15px;
-        }
-        .informacion button:hover{
-            background-color: #48d4ff;
-            width: 300px;
-            height: 50px;
-            cursor: pointer;
-        }
+}
+h1{
+    font-size: 20px;
+}
+.marquesina{
+    height: 20px;
+}
+.marquesina marquee{
+    height: 100px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.tarjetas .tarjetas2{
+    width: 250px;
+    text-align: center;
+}
+.tarjetas2 h3{
+    color: #48d4ff;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.tarjetas .tarjetas2 img{
+    height: 230px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center top;
+    clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 75%,0% 25%);
+}
+.tarjetas2 button{
+    margin: 5px;
+    color: white;
+    background-color: #40df88;
+    border: none;
+    width: 25px;
+    height: 30px;
+    object-fit: cover;
+    clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 75%,0% 25%);
+}
+.tarjetas2 button:hover{
+    transition: 0.5s all;
+    background-color: #48d4ff;
+    cursor: pointer;
+    width: 30px;
+}
+.informacion{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.informacion button{
+    height: 45px;
+    width: 250px;
+    border: none;
+    background-color: #ff5252;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.informacion button:hover{
+    background-color: #48d4ff;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
